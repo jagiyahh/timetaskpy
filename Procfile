@@ -1,2 +1,1 @@
-web: python time.py
-worker: python time.py
+web: python run.py
