@@ -1,1 +1,1 @@
-web: python run.py
+web: uwsgi --http-socket=:$PORT --die-on-term --module=main:app
