@@ -23,7 +23,7 @@ def home():
 
     dat += str(tz) + ':00'
 
-    return dat
+    return '<body>' + dat + '</body>'
 
 if __name__ == "__main__":
     app.run()
